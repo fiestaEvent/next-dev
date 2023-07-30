@@ -69,7 +69,6 @@ export default async function Blog() {
       <div className="flex justify-evenly flex-wrap w-11/12 my-20 mx-auto md:flex">
         {blogs.map((blog: any, index: Number) => (
           <div
-            // data-aos="zoom-in"
             key={blog._id}
             className="flex sm:scale-125 lg:scale-150 flex-col w-56 rounded-lg shadow-sm text-[#fdfdfd] bg-fuchsia-50 shadow-rose-900 items-center p-2"
           >

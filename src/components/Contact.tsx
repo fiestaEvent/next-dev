@@ -54,7 +54,6 @@ function ContactForm() {
       className="contactForm relative flex flex-col md:flex-row justify-center items-center m-auto max-w-[80vw]"
     >
       <div
-        data-aos="zoom-in-right"
         className="md:absolute top-28 left-[10vw] flex flex-col min-w-[100%] md:min-w-[35vw] max-w-[80%] md:max-w-[300px] md:bg-rose-600 p-10 text-[#fdfdfd] rounded-lg"
       >
         <input

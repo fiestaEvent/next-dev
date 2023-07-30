@@ -68,8 +68,6 @@ export default function Services() {
         {stats.map((stat, index) => (
           <div
             key={index}
-            data-aos="flip-right"
-            data-aos-delay={75 * index}
             className="relative w-56 h-56 m-3 p-3 text-rose-900 flex flex-col items-end justify-between transition-all duration-200 bg-yellow-20 rounded-sm"
           >
             <Image
@@ -98,13 +96,13 @@ export default function Services() {
         </div>
         <div className="w-full flex justify-center items-center text-xs font-bold">
           <Link
-            href="/home#contact"
+            href="/#contact"
             className="text-fuchsia-900 mr-2 bg-[#fdfdfd] border-2 border-[#fdfdfd] w-fit p-3 transition-all duration-700 hover:bg-transparent hover:text-[#fdfdfd]"
           >
             Let&apos;s Talk
           </Link>
           <Link
-            href="/home#testimonials"
+            href="/#testimonials"
             className="text-[#fdfdfd] border-2 border-[#fdfdfd] w-fit p-3 transition-all duration-700 hover:bg-[#fdfdfd] hover:text-fuchsia-900"
           >
             Hear from our Clients

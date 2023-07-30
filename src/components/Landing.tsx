@@ -43,7 +43,6 @@ export default function Landing() {
           Plan your next event with{" "}
         </span>
         <span
-          data-aos="zoom-in"
           className="text-3xl text-fuchsia-900 md:text-6xl mt-2 font-black"
         >
           Fiesta

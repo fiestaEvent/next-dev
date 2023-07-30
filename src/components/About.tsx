@@ -18,7 +18,6 @@ export default function About() {
               height={500}
               width={500}
               src="/corporate.png"
-              data-aos="zoom-in-left"
               alt="logo"
               className="w-[80vw] h-[50vw] md:w-[35vw] md:h-[26vw] object-cover object-center mt-8"
               title="data"
@@ -32,7 +31,6 @@ export default function About() {
           <div>
             <Image
               src="/social.png"
-              data-aos="zoom-in-right"
               height={500}
               width={500}
               alt="logo"
