@@ -8,8 +8,14 @@ import Image from "next/image";
 export default function BlogView() {
   const [show, setShow] = useState(false);
   const [doneSubmit, setDoneSubmit] = useState(false); //eslint-disable-line
-  const [blog, setBlog] = useState(null);
+  const [blog, setBlog] = useState({
+    title: "",
+    body: "",
+    Image: "",
+    read: 0,
+  });
   const [state, setState] = useState("");
+  const [b, setB] = useState("");
   const [loading, setLoading] = useState(false);
   let [read, setRead] = useState(false);
   const params = usePathname();
@@ -19,11 +25,11 @@ export default function BlogView() {
       left: 0,
       behavior: "smooth",
     });
-    const b = params.split("/")[2];
     async function getData() {
+      setB(params.split("/")[2]);
       setLoading(true);
       const res = await fetch(
-        `https://fiesta-server.onrender.com/api/blogs/${b}`,
+        `https://fiesta-server.onrender.com/api/blogs/${params.split("/")[2]}`,
         {
           method: "GET",
           headers: {
@@ -77,7 +83,7 @@ export default function BlogView() {
           title="modalImage"
           loading="eager"
           placeholder="blur"
-          blurDataURL="https://i.imgur.com/W4AnJYe.png"
+          blurDataURL="LEHV6nWB2yk8pyo0adR*.7kCMdnj"
         />
       </div>
       {show === true && (

@@ -21,10 +21,10 @@ export default function Landing() {
       </div>
       <div className="flex flex-row mt-16 mb-12  justify-center text-center md:justify-evenly min-w-[50vw] max-w-[70vw] m-auto text-fuchsia-900">
         Your one-stop destination for all event management needs. At Fiesta,we
-        understand that every event is unique and special. Whether it's a
+        understand that every event is unique and special. Whether it&apos;s a
         corporate conference, a grand wedding, a milestone celebration, or a
         social gathering, we have the knowledge, resources, and creativity to
-        make it an unforgettable experiences within your budget. Don't just take
+        make it an unforgettable experiences within your budget. Don&apos;t just take
         our word for it - see what our satisfied clients have to say in our
         testimonials section and explore our gallery to see our last works.
         Thank you for visiting Fiesta. We look forward to celebrate the event
