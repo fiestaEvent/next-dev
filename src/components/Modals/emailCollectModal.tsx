@@ -81,7 +81,7 @@ export default function EmailCollectModal(props: any) {
               I agree to receive email communications from Fiesta
             </p>
           </div>
-          {response === null && (
+          { (
             <button
               type="submit"
               className="bg-fuchsia-900 text-white rounded-md p-2 m-2 w-11/12 text-xs font-bold"
