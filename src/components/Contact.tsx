@@ -15,15 +15,16 @@ function ContactForm() {
   });
   const handleSubmit = async (e: any) => {
     e.preventDefault();
-    // const res = await fetch(`${baseUrl}/query`, {
-    //   method: "POST",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    //   body: JSON.stringify(data),
-    // });
-    // const result = await res.json();
-    // setState(result.succeeded);
+    const res = await fetch(`https://fiesta-server.onrender.com/api/query`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    });
+    const result = await res.json();
+    console.log(result);
+    setState(result.succeeded);
   };
   // if (state.succeeded) {
   if (state === true) {
@@ -50,7 +51,7 @@ function ContactForm() {
   }
   return (
     <form
-      onSubmit={handleSubmit}
+      onSubmit={(e)=>handleSubmit(e)}
       className="contactForm relative flex flex-col md:flex-row justify-center items-center m-auto max-w-[80vw]"
     >
       <div
