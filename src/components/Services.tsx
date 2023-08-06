@@ -54,6 +54,7 @@ const stats = [
   },
   {
     tag: "Onsite Support Staff",
+    desc: "Availability of support staff at the venue for management.",
     img: "/services/support.png",
   },
 ];
