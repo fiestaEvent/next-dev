@@ -70,7 +70,7 @@ export default async function Blog() {
         {blogs.map((blog: any, index: Number) => (
           <div
             key={blog._id}
-            className="flex sm:scale-125 lg:scale-150 flex-col w-56 rounded-lg shadow-sm text-[#fdfdfd] bg-fuchsia-50 shadow-rose-900 items-center p-2"
+            className="flex sm:scale-125 lg:scale-150 flex-col w-56 rounded-lg shadow-sm text-[#fdfdfd] bg-[#fffef5] shadow-rose-900 items-center p-2"
           >
             <div className="h-56 m-3 mb-0 text-sm justify-evenly flex flex-col">
               <Image

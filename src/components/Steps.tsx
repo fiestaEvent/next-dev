@@ -39,11 +39,11 @@ export default function Steps() {
           >
             <i
               dangerouslySetInnerHTML={{ __html: bullseye }}
-              className="sm:hidden fill-rose-700 bg-fuchsia-50 absolute -left-[11px] top-7 text-xl"
+              className="sm:hidden fill-rose-700 bg-[#fffef5] absolute -left-[11px] top-7 text-xl"
             ></i>
             <i
               dangerouslySetInnerHTML={{ __html: bullseye }}
-              className="hidden sm:block fill-rose-700 bg-fuchsia-50 absolute left-14 -bottom-[14px] text-xl"
+              className="hidden sm:block fill-rose-700 bg-[#fffef5] absolute left-14 -bottom-[14px] text-xl"
             ></i>
             <div className="flex flex-row w-64 sm:w-fit m-3 sm:mx-10 sm:flex-col justify-evenly ">
               <i

@@ -20,7 +20,7 @@ export default function Footer() {
   return (
     <>
       <div className="flex-wrap border-t-2 pb-4 md:pb-0 border-t-fuchsia-900 w-full bg-fuchsia-900 text-[#fdfdfd] flex flex-col md:flex-row justify-center m-auto items-center align-middle lg:justify-evenly">
-        <div className="h-48 w-full hidden md:block md:w-fit bg-fuchsia-50">
+        <div className="h-48 w-full hidden md:block md:w-fit bg-[#fffef5]">
           <Image
             height={200}
             width={200}
@@ -35,7 +35,7 @@ export default function Footer() {
             alt="logo"
             width={100}
             height={100}
-            className="h-28 sm:h-32 w-28 sm:w-32 md:hidden bg-fuchsia-50 rounded-full p-3 mt-5"
+            className="h-28 sm:h-32 w-28 sm:w-32 md:hidden bg-[#fffef5] rounded-full p-3 mt-5"
           />
           <div className="flex flex-col lg:flex-row flex-wrap items-center mt-6 md:mx-auto">
             {contact.map((stat, index) => (

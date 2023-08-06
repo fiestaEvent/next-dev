@@ -61,7 +61,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} bg-fuchsia-50`}>
+      <body className={`${poppins.className} bg-[#fffef5]`}>
         <Navbar />
         {children}
         <Footer />

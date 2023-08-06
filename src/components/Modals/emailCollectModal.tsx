@@ -37,7 +37,7 @@ export default function EmailCollectModal(props: any) {
   }
   return (
     <div
-      className={`${handlee.className} bg-fuchsia-50 rounded-sm p-3 shadow-sm shadow-rose-900 my-3 min-h-fit max-h-[75vh] m-auto w-[90vw] max-w-xl`}
+      className={`${handlee.className} bg-[#fffef5] rounded-sm p-3 shadow-sm shadow-rose-900 my-3 min-h-fit max-h-[75vh] m-auto w-[90vw] max-w-xl`}
     >
       <div className="relative flex flex-col md:flex-row justify-center h-full items-center">
         <Image
