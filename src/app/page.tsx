@@ -4,9 +4,11 @@ import Landing from "@/components/Landing";
 import Services from "@/components/Services";
 import Steps from "@/components/Steps";
 import Testimonials from "@/components/Testimonials";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 export default function Home() {
   return (
     <main className="min-h-screen w-full flex flex-col justify-start">
+      <SpeedInsights />
       <Landing />
       <div id="contact" className="section pt-20 -mb-52 md:-mb-20">
         <Contact />
