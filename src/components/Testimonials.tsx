@@ -15,7 +15,7 @@ const data = [
     name: "Anish & Pratibha",
     designation: "Bride & Groom",
     description:
-      "Wanted to say a big thank you to Fiesta for planning and executing our wedding flawlessly. The way Sristi amd her team blended both North and South Indian cultures was incredible! From the lively Haldi and rocking Sangeet to the beautiful wedding in Gurgaon, everyone felt included and had a blast.We highly recommend to choose team Fiesta to plan your big day.",
+      "Wanted to say a big thank you to Fiesta for planning and executing our wedding flawlessly. The way Sristi and her team blended both North and South Indian cultures was incredible! From the lively Haldi and rocking Sangeet to the beautiful wedding in Gurgaon, everyone felt included and had a blast.We highly recommend to choose team Fiesta to plan your big day.",
   },
   {
     name: "Ms Sashi",
